@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/sinthgit/static/css/main.a5d35cd5.chunk.css",
-    "main.js": "/sinthgit/static/js/main.35d8d9e4.chunk.js",
-    "main.js.map": "/sinthgit/static/js/main.35d8d9e4.chunk.js.map",
-    "runtime-main.js": "/sinthgit/static/js/runtime-main.3921fa3b.js",
-    "runtime-main.js.map": "/sinthgit/static/js/runtime-main.3921fa3b.js.map",
-    "static/css/2.559fd73f.chunk.css": "/sinthgit/static/css/2.559fd73f.chunk.css",
-    "static/js/2.f9feca08.chunk.js": "/sinthgit/static/js/2.f9feca08.chunk.js",
-    "static/js/2.f9feca08.chunk.js.map": "/sinthgit/static/js/2.f9feca08.chunk.js.map",
-    "index.html": "/sinthgit/index.html",
-    "precache-manifest.d4473842d6a78f503d927ea98917728d.js": "/sinthgit/precache-manifest.d4473842d6a78f503d927ea98917728d.js",
-    "service-worker.js": "/sinthgit/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "/sinthgit/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.a5d35cd5.chunk.css.map": "/sinthgit/static/css/main.a5d35cd5.chunk.css.map",
-    "static/media/ava-ph.png": "/sinthgit/static/media/ava-ph.6967de29.png",
-    "static/media/code.svg": "/sinthgit/static/media/code.6c7f227f.svg",
-    "static/media/dreamer.svg": "/sinthgit/static/media/dreamer.7a33359e.svg",
-    "static/media/globe.svg": "/sinthgit/static/media/globe.c93eba2f.svg",
-    "static/media/welcome.svg": "/sinthgit/static/media/welcome.ede92533.svg"
+    "main.css": "/sinthaesia-react.js.git/static/css/main.a5d35cd5.chunk.css",
+    "main.js": "/sinthaesia-react.js.git/static/js/main.139f59ee.chunk.js",
+    "main.js.map": "/sinthaesia-react.js.git/static/js/main.139f59ee.chunk.js.map",
+    "runtime-main.js": "/sinthaesia-react.js.git/static/js/runtime-main.6329356c.js",
+    "runtime-main.js.map": "/sinthaesia-react.js.git/static/js/runtime-main.6329356c.js.map",
+    "static/css/2.559fd73f.chunk.css": "/sinthaesia-react.js.git/static/css/2.559fd73f.chunk.css",
+    "static/js/2.f9feca08.chunk.js": "/sinthaesia-react.js.git/static/js/2.f9feca08.chunk.js",
+    "static/js/2.f9feca08.chunk.js.map": "/sinthaesia-react.js.git/static/js/2.f9feca08.chunk.js.map",
+    "index.html": "/sinthaesia-react.js.git/index.html",
+    "precache-manifest.6d7acd98d80804d9fa83570ede5d6192.js": "/sinthaesia-react.js.git/precache-manifest.6d7acd98d80804d9fa83570ede5d6192.js",
+    "service-worker.js": "/sinthaesia-react.js.git/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/sinthaesia-react.js.git/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.a5d35cd5.chunk.css.map": "/sinthaesia-react.js.git/static/css/main.a5d35cd5.chunk.css.map",
+    "static/media/ava-ph.png": "/sinthaesia-react.js.git/static/media/ava-ph.6967de29.png",
+    "static/media/code.svg": "/sinthaesia-react.js.git/static/media/code.6c7f227f.svg",
+    "static/media/dreamer.svg": "/sinthaesia-react.js.git/static/media/dreamer.7a33359e.svg",
+    "static/media/globe.svg": "/sinthaesia-react.js.git/static/media/globe.c93eba2f.svg",
+    "static/media/welcome.svg": "/sinthaesia-react.js.git/static/media/welcome.ede92533.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3921fa3b.js",
+    "static/js/runtime-main.6329356c.js",
     "static/css/2.559fd73f.chunk.css",
     "static/js/2.f9feca08.chunk.js",
     "static/css/main.a5d35cd5.chunk.css",
-    "static/js/main.35d8d9e4.chunk.js"
+    "static/js/main.139f59ee.chunk.js"
   ]
 }
