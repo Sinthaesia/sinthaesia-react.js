@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.scss";
 import Colors from './variables';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Badge } from "react-mdl";
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from "react-mdl";
 
 // function Projects() {
 class Projects extends Component {
@@ -19,7 +19,7 @@ class Projects extends Component {
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.orange }}>Live Demo</Button>
+            <Button colored ripple raised accent className="html__bg" style={{ fontWeight: 'bold', color: Colors.grey }}>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: Colors.white}}>
             <IconButton name="share" />
@@ -31,7 +31,7 @@ class Projects extends Component {
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.orange }}>Live Demo</Button>
+            <Button colored ripple raised accent className="html__bg" style={{ fontWeight: 'bold', color: Colors.grey }}>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: Colors.white}}>
             <IconButton name="share" />
@@ -43,7 +43,7 @@ class Projects extends Component {
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.orange }}>Live Demo</Button>
+            <Button colored ripple raised accent className="html__bg" style={{ fontWeight: 'bold', color: Colors.grey }}>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: Colors.white}}>
             <IconButton name="share" />
@@ -59,7 +59,7 @@ class Projects extends Component {
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.blue }}>Live Demo</Button>          </CardActions>
+            <Button colored ripple raised accent className="wp__bg" style={{ fontWeight: 'bold', color: Colors.grey }}>Live Demo</Button>          </CardActions>
           <CardMenu style={{ color: Colors.white}}>
             <IconButton name="share" />
           </CardMenu>
@@ -70,7 +70,7 @@ class Projects extends Component {
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.blue }}>Live Demo</Button>          </CardActions>
+            <Button colored ripple raised accent className="wp__bg" style={{ fontWeight: 'bold', color: Colors.grey }}>Live Demo</Button>          </CardActions>
           <CardMenu style={{ color: Colors.white}}>
             <IconButton name="share" />
           </CardMenu>
@@ -85,7 +85,7 @@ class Projects extends Component {
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.react }}>Live Demo</Button>          </CardActions>
+            <Button cripple raised accent className="react__bg" style={{ fontWeight: 'bold', color: Colors.darklight }}>Live Demo</Button>          </CardActions>
           <CardMenu style={{color: Colors.white}}>
             <IconButton name="share" />
           </CardMenu>
@@ -99,8 +99,8 @@ class Projects extends Component {
           <CardTitle style={{ color: Colors.dimgray, height: '176px', background: 'url(https://i.imgur.com/I08uxii.png) center / cover' }}>Logo design</CardTitle>
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.darklight }}>Live Demo</Button>          </CardActions>
+            <Button colored>IMGUR</Button>
+            <Button ripple raised accent className="gd__bg" style={{ fontWeight: 'bold', color: Colors.dgrey }}>Live Demo</Button>          </CardActions>
           <CardMenu style={{color: Colors.white}}>
             <IconButton name="share" />
           </CardMenu>
@@ -110,8 +110,8 @@ class Projects extends Component {
           <CardTitle style={{ color: Colors.dimgray, height: '176px', background: 'url(https://i.imgur.com/R1dEESs.jpg) center / cover' }}>Brochure development</CardTitle>
           <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et quam vel erat mollis sodales. Sed mauris nulla, commodo eu dapibus vitae, mattis vel tortor.</CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored style={{ fontWeight: 'bold', color: Colors.darklight }}>Live Demo</Button>          </CardActions>
+            <Button colored>IMGUR</Button>
+            <Button ripple raised accent className="gd__bg" style={{ fontWeight: 'bold', color: Colors.dgrey }}>Live Demo</Button>          </CardActions>
           <CardMenu style={{ color: Colors.white}}>
             <IconButton name="share" />
           </CardMenu>

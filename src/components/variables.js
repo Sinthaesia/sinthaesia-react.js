@@ -10,7 +10,9 @@ const Colors = {
     orange: '#F7652D',
     react: '#61DBFB',
     dimgray: '#EAEAEA',
-    wphead: '#c8d6f7'
+    wphead: '#c8d6f7',
+    purple: '#833fb2',
+    newblue: '#96c3ce'
 };
 
 export default Colors;
