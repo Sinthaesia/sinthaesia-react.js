@@ -14,7 +14,7 @@ class Experience extends Component {
           <h4
             style={{
               marginTop: "0px",
-              borderBottom: "2px solid #E53167",
+              borderBottom: "2px solid #539987",
               display: "inline-block"
             }}
           >

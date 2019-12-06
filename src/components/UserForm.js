@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
+import Success from './Success';
 import "I:/reactsin/sinthaesia/src/App.scss";
 
 export class UserForm extends Component {
@@ -12,7 +13,8 @@ export class UserForm extends Component {
            email: '',
            occupation: '',
            city: '',
-           phoneNumber: ''
+           phoneNumber: '',
+           message: ''
          }
          // Proceed to next step
          nextStep = () => {
@@ -34,8 +36,8 @@ export class UserForm extends Component {
          }
          render() {
             const { step } = this.state;
-            const { firstName, lastName, email, occupation, city, phoneNumber } = this.state;
-            const values = { firstName, lastName, email, occupation, city, phoneNumber } // eslint-disable-next-line
+            const { firstName, lastName, email, occupation, city, phoneNumber, message } = this.state;
+            const values = { firstName, lastName, email, occupation, city, phoneNumber, message } // eslint-disable-next-line
            switch (step) { 
                 case 1:
                     return (
@@ -63,7 +65,7 @@ export class UserForm extends Component {
                       />
                ); 
                 case 4:
-                    return <h1>Success</h1>
+                    return <Success />
             }
          }
        }

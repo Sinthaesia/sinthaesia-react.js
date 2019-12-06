@@ -7,7 +7,7 @@ export class ContactNew extends Component {
   render(){
     return (
       <Grid className="contact-grid">
-        <Cell col={7} className="svg-container">
+        <Cell col={6} offsetDesktop={1} className="svg-container">
           <Icon />
         </Cell>
         <Cell col={5} className="contact-right">

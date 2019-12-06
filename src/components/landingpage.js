@@ -9,14 +9,18 @@ import gsap from "gsap";
 
 function Landingpage() {
   return (
-    <div style={{ width: "100%", height:"100%" }}>
+    <div style={{ width: "100%" }}>
       <Grid className="landing-grid">
         <Cell col={5} className="hero">
           <img
             src={ dreamer }
             alt="welcome"
             className="hacker"
+            style={{ display:"none" }}
           />
+          <div className="splittext">
+            <h1>Welcome to Sinthaesia</h1>
+          </div>
         </Cell>
         <Cell col={7} className="grid-display">
           <img src={Avatar} alt="Avatar" className="avatar-img" />
@@ -65,14 +69,15 @@ function Landingpage() {
         <Cell col={6}></Cell>
         <Cell col={6}></Cell>
         <div className="overlap-content">
-          <img 
+          {/* <img 
             src={globe}
             alt="globe"
             className="globe"
           />
           <h1>This is a test field</h1>
           <hr />
-          <p style={{ textAlign: 'left' }}>More card details go here</p>
+          <p style={{ textAlign: 'left' }}>More card details go here</p> */}
+          <iframe title="placeholder" width="100%" height="100%" src="https://www.youtube.com/embed/fzwOBOjSto8" AutoPlay Muted Controls="0" Frameborder="0" AllowFullScreen></iframe>
         </div>
       </Grid>
     </div>

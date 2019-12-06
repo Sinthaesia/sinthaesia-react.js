@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import AppBar from "material-ui/AppBar";
 import { List, ListItem } from 'material-ui/List';
-import RaisedButton from "material-ui/RaisedButton";
+import Button from "@material-ui/core/Button";
+import Divider from '@material-ui/core/Divider';
 
 export class FormUserDetails extends Component {
          continue = e => {
@@ -24,7 +25,8 @@ export class FormUserDetails extends Component {
                email,
                occupation,
                city,
-               phoneNumber
+               phoneNumber,
+               message
              }
            } = this.props;
            return (
@@ -32,47 +34,54 @@ export class FormUserDetails extends Component {
                <React.Fragment>
                  <AppBar showMenuIconButton={false}
                    style={{ background: 'linear-gradient(-45deg, #0f2027, #203a43, #2c5364)', fontFamily: 'Cairo, sans-serif' }} title="Confirm Data" />
+                 <div className="form-container-confirm">
                  <List>
                    <ListItem
-                     primaryText="First name"
+                     primaryText="Your first name"
                      secondaryText={firstName}
                    />
-                   <ListItem primaryText="Last name" secondaryText={lastName} />
-                   <ListItem primaryText="Email" secondaryText={email} />
+                    <Divider />
+                   <ListItem primaryText="Your last name" secondaryText={lastName} />
+                    <Divider />
+                   <ListItem primaryText="Your email address" secondaryText={email} />
+                     <Divider />
                    <ListItem
                      primaryText="Occupation / work"
                      secondaryText={occupation}
                    />
-                   <ListItem primaryText="City" secondaryText={city} />
+                     <Divider />
+                   <ListItem primaryText="Your residential area" secondaryText={city} />
+                     <Divider />
                    <ListItem
                      primaryText="Phone number"
                      secondaryText={phoneNumber}
                    />
+                     <Divider />
+                     <ListItem className="custom-list-item" primaryText="Your message" secondaryText={message} />
                  </List>
                  <br />
-                 <RaisedButton
+                   <Button
+                     variant="outlined"
+                     color="primary"
+                     label="Continue"
+                     onClick={this.continue}
+                   >
+                     Continue
+                    </Button>
+                 <Button
+                   variant="outlined"
+                   color="secondary"
                    label="Back"
-                   primary={false}
-                   style={styles.button}
                    onClick={this.back}
-                 />
-                 <RaisedButton
-                   label="Confirm &amp; continue."
-                   primary={true}
-                   style={styles.button}
-                   onClick={this.continue}
-                 />
+                   className="back-button"
+                 >
+                   Back
+                    </Button>
+                    </div>
                </React.Fragment>
              </MuiThemeProvider>
            );
          }
        }
-
-const styles = {
-  button: {
-    margin: "15px",
-    background: "#fe52f1"
-  }
-};
 
 export default FormUserDetails;

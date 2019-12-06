@@ -6,9 +6,13 @@ import Skills from "./skills";
 
 function Resume() {
   return (
-    <div>
-      <Grid>
-        <Cell col={4}>
+    <div style={{ background: '#203a43', minHeight: '100vh'}}>
+      <Grid col={12} className="resume-grid">
+        <Cell col={4} 
+        className="resume-left-col"
+        offsetDesktop={1}
+        offsetPhone={0}
+        phone={5}>
           <div style={{ textAlign: "center" }}>
             <img
               src="https://www.shareicon.net/data/512x512/2016/01/19/705652_man_512x512.png"
@@ -16,11 +20,11 @@ function Resume() {
               style={{ height: "200px" }}
             />
           </div>
-          <h2 style={{ paddinTop: "30px" }}>Daan Aesseloos</h2>
-          <h4 style={{ color: "grey" }}>Developer</h4>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+          <h2>Daan Aesseloos</h2>
+          <h4>Developer</h4>
+          <hr />
           <p>LOREM IPSUM FOR THE TIME BEING</p>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+          <hr />
           <h5>Address</h5>
           <p>1 Hackerway Way Menlo Park, 94025</p>
           <h5>Phone</h5>
@@ -29,12 +33,16 @@ function Resume() {
           <p>hello@sinthaesia.com</p>
           <h5>Website</h5>
           <p>https://sinthaesia.com</p>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+          <hr />
         </Cell>
         <Cell
           className="resume-right-col"
-          col={8}
+          col={6}
           style={{ maxHeight: "800px", overflowX: "scroll" }}
+          shadow={5}
+          phone={4}
+          offsetPhone={0}
+          align="middle"
         >
           <h2>Education history</h2>
 
@@ -53,7 +61,7 @@ function Resume() {
             schoolDescription="Webdesign &amp; webdevelopment"
           />
 
-          <hr style={{ borderTop: "3px solid #E53167" }} />
+          <hr className="h-ruler" />
 
           <h2>Experience</h2>
 
@@ -85,7 +93,7 @@ function Resume() {
             jobName="WordPress development"
             jobDescription="Company website production"
           />
-          <hr style={{ borderTop: "3px solid #E53167" }} />
+          <hr className="h-ruler" />
           <h2>Skills</h2>
           <Skills skill="HTML and CSS" progress={85} buffer={90} />
           <Skills skill="JavaScript" progress={65} buffer={75} />

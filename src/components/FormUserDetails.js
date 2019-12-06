@@ -1,9 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
-// import TextField from 'material-ui/TextField';
-import RaisedButton from 'material-ui/RaisedButton';
-import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
@@ -62,7 +59,6 @@ export class FormUserDetails extends Component {
                   color="primary"
                   label="Continue"
                   onClick={this.continue}
-                  style={{ height: '50px', color:'red' }}
                 >
                   Continue
                 </Button>
@@ -73,10 +69,4 @@ export class FormUserDetails extends Component {
     }
 }
 
-const styles = {
-    button: {
-        backgroundColor: '#fe52f1 !important'
-    }
-}
-
-export default FormUserDetails
+export default FormUserDetails;
